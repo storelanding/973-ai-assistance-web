@@ -8,7 +8,16 @@
   "companyAddress": "",
   "contactEmail": "ducmin175214@gmail.com",
   "dataCollected": "",
-  "thirdParties": [],
+  "thirdParties": [
+    "Google AdMob",
+    "Firebase Analytics",
+    "Google Analytics",
+    "Adjust",
+    "Firebase Crashlytics",
+    "Firebase Performance Monitoring",
+    "AppLovin MAX",
+    "Meta Audience Network"
+  ],
   "noThirdParties": false,
   "childrenDirected": false,
   "hasSubscription": false,
@@ -20,8 +29,8 @@
   "packageName": "com.assistance.ai.live.addvancer",
   "store": "Google Play",
   "platform": "android",
-  "siteUrl": null,
-  "hosting": null,
+  "siteUrl": "https://supper-assistance.vercel.app",
+  "hosting": "vercel",
   "images": [
     { "file": "assets/img/student-laptop.jpg", "source": "https://commons.wikimedia.org/wiki/File:Laptop_and_girl_biting_pencil-pixabay.jpg", "author": "Jan Vašek", "license": "CC0" },
     { "file": "assets/img/coffee-phone.jpg", "source": "https://commons.wikimedia.org/wiki/File:Hands-coffee-smartphone-technology_(23698591814).jpg", "author": "Wikimedia Commons contributor (CC0)", "license": "CC0" },
