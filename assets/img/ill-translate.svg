@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6f8f5"/><stop offset="1" stop-color="#e0f2fe"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="190" fill="#fff" opacity=".5"/>
+  <rect x="110" y="140" width="300" height="130" rx="28" fill="#5b4bf5"/>
+  <path d="M150 270l-10 40 46-40z" fill="#5b4bf5"/>
+  <text x="150" y="222" font-family="system-ui, sans-serif" font-size="52" font-weight="800" fill="#fff">Hello!</text>
+  <rect x="390" y="330" width="300" height="130" rx="28" fill="#fff" stroke="#e4e2f0" stroke-width="2"/>
+  <path d="M650 460l10 40-46-40z" fill="#fff"/>
+  <text x="430" y="412" font-family="system-ui, sans-serif" font-size="52" font-weight="800" fill="#16142b">¡Hola!</text>
+  <circle cx="400" cy="300" r="44" fill="#14b8a6"/>
+  <path d="M382 290h36m-10-10l10 10-10 10M418 312h-36m10 10l-10-10 10-10" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#16142b" opacity=".75" font-family="system-ui, sans-serif" font-weight="700" font-size="22">
+    <text x="560" y="160">Bonjour</text>
+    <text x="120" y="440">Ciao</text>
+    <text x="600" y="240" fill="#5b4bf5">Hallo</text>
+    <text x="170" y="520" fill="#14b8a6">Olá</text>
+  </g>
+</svg>
