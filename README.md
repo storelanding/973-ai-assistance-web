@@ -9,6 +9,7 @@ Static website for the Ai Asistance Android app (Google Play). Plain HTML + CSS,
 | `terms.html` | Terms of Use |
 | `app-ads.txt` | app-ads.txt |
 | `404.html` | Not-found page |
+| `robots.txt`, `sitemap.xml` | Crawler rules and sitemap (absolute URLs use the site URL) |
 | `assets/` | CSS, icon, images |
 | `site.json` | Metadata used to generate the site (for future updates) |
 
@@ -21,6 +22,14 @@ Framework preset **None**, build command empty, output directory `/`. Add your d
 Add your domain under Settings → Domains.
 
 ## After deploying
+
+Site URL (hosted on Vercel): https://supper-assistance.vercel.app
+
+- app-ads.txt: https://supper-assistance.vercel.app/app-ads.txt
+- Privacy Policy: https://supper-assistance.vercel.app/policies.html
+
+If the domain changes, update the absolute URLs in `sitemap.xml`, `robots.txt`, `site.json` and the
+`canonical` / `og:url` / `og:image` tags in the HTML pages.
 
 - `app-ads.txt` must be reachable at `https://<your-domain>/app-ads.txt`, and that domain must match the developer
   website declared on Google Play.
